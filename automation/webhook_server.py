@@ -38,7 +38,7 @@ def flash():
             "bash",
             "-c",
             "cd /workspace && ./build-flash.sh",
-        ], check=True)
+        ])
 
         return "Build and flash successful\n", 200
 

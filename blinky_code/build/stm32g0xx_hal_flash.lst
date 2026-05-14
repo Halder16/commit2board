@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccixNPDC.s 			page 1
+ARM GAS  /tmp/ccbVDaGs.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
   30:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       (+) 32 cache lines of 4*64 bits on I-Code
   31:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       (+) Error code correction (ECC) : Data in flash are 72-bits word
   32:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****           (8 bits added per double word)
-ARM GAS  /tmp/ccixNPDC.s 			page 2
+ARM GAS  /tmp/ccbVDaGs.s 			page 2
 
 
   33:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
   87:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
   88:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** /** @addtogroup STM32G0xx_HAL_Driver
   89:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   * @{
-ARM GAS  /tmp/ccixNPDC.s 			page 3
+ARM GAS  /tmp/ccbVDaGs.s 			page 3
 
 
   90:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  144:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     This subsection provides a set of functions allowing to manage the FLASH
  145:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     program operations.
  146:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
-ARM GAS  /tmp/ccixNPDC.s 			page 4
+ARM GAS  /tmp/ccbVDaGs.s 			page 4
 
 
  147:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** @endverbatim
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  201:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
  202:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     /* If the program operation is completed, disable the PG or FSTPG Bit */
  203:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     CLEAR_BIT(FLASH->CR, TypeProgram);
-ARM GAS  /tmp/ccixNPDC.s 			page 5
+ARM GAS  /tmp/ccbVDaGs.s 			page 5
 
 
  204:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   }
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  258:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       /* Check the parameters */
  259:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       assert_param(IS_FLASH_PROGRAM_ADDRESS(Address));
  260:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
-ARM GAS  /tmp/ccixNPDC.s 			page 6
+ARM GAS  /tmp/ccbVDaGs.s 			page 6
 
 
  261:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       /* Program double-word (64-bit) at a specified address */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  315:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   if (error != 0x00U)
  316:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   {
  317:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     /*Save the error code*/
-ARM GAS  /tmp/ccixNPDC.s 			page 7
+ARM GAS  /tmp/ccbVDaGs.s 			page 7
 
 
  318:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     pFlash.ErrorCode |= error;
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  372:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** }
  373:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
  374:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** /**
-ARM GAS  /tmp/ccixNPDC.s 			page 8
+ARM GAS  /tmp/ccbVDaGs.s 			page 8
 
 
  375:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   * @brief  FLASH end of operation interrupt callback.
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  429:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** /**
  430:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   * @brief  Unlock the FLASH control register access.
  431:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   * @retval HAL Status
-ARM GAS  /tmp/ccixNPDC.s 			page 9
+ARM GAS  /tmp/ccbVDaGs.s 			page 9
 
 
  432:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   */
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  486:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     /* Authorizes the Option Byte register programming */
  487:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     WRITE_REG(FLASH->OPTKEYR, FLASH_OPTKEY1);
  488:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     WRITE_REG(FLASH->OPTKEYR, FLASH_OPTKEY2);
-ARM GAS  /tmp/ccixNPDC.s 			page 10
+ARM GAS  /tmp/ccbVDaGs.s 			page 10
 
 
  489:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  543:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   *
  544:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** @verbatim
  545:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****  ===============================================================================
-ARM GAS  /tmp/ccixNPDC.s 			page 11
+ARM GAS  /tmp/ccbVDaGs.s 			page 11
 
 
  546:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****                 ##### Peripheral Errors functions #####
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  600:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
  601:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   /* Wait for the FLASH operation to complete by polling on BUSY flag to be reset.
  602:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****      Even if the FLASH operation fails, the BUSY flag will be reset and an error
-ARM GAS  /tmp/ccixNPDC.s 			page 12
+ARM GAS  /tmp/ccbVDaGs.s 			page 12
 
 
  603:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****      flag will be set */
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  657:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** {
   27              		.loc 1 657 1 view -0
   28              		.cfi_startproc
-ARM GAS  /tmp/ccixNPDC.s 			page 13
+ARM GAS  /tmp/ccbVDaGs.s 			page 13
 
 
   29              		@ args = 0, pretend = 0, frame = 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
   24:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   25:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __CMSIS_GCC_H
   26:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_H
-ARM GAS  /tmp/ccixNPDC.s 			page 14
+ARM GAS  /tmp/ccbVDaGs.s 			page 14
 
 
   27:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
   81:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
   82:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_WRITE { uint16_t v; };
   83:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
-ARM GAS  /tmp/ccixNPDC.s 			page 15
+ARM GAS  /tmp/ccbVDaGs.s 			page 15
 
 
   84:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_WRITE(addr, val)    (void)((((struct T_UINT16_WRITE *)(void *)(addr))-
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  138:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t  wlen;
  139:Drivers/CMSIS/Include/cmsis_gcc.h ****   } __copy_table_t;
  140:Drivers/CMSIS/Include/cmsis_gcc.h ****   
-ARM GAS  /tmp/ccixNPDC.s 			page 16
+ARM GAS  /tmp/ccbVDaGs.s 			page 16
 
 
  141:Drivers/CMSIS/Include/cmsis_gcc.h ****   typedef struct {
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  195:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  196:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __enable_irq(void)
  197:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccixNPDC.s 			page 17
+ARM GAS  /tmp/ccbVDaGs.s 			page 17
 
 
  198:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsie i" : : : "memory");
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  252:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  253:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  254:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
-ARM GAS  /tmp/ccixNPDC.s 			page 18
+ARM GAS  /tmp/ccbVDaGs.s 			page 18
 
 
  255:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  309:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  310:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Process Stack Pointer
  311:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Process Stack Pointer (PSP).
-ARM GAS  /tmp/ccixNPDC.s 			page 19
+ARM GAS  /tmp/ccbVDaGs.s 			page 19
 
 
  312:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSP Register value
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  366:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               MSP Register value
  367:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  368:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_MSP(void)
-ARM GAS  /tmp/ccixNPDC.s 			page 20
+ARM GAS  /tmp/ccbVDaGs.s 			page 20
 
 
  369:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  423:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_SP_NS(void)
  424:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  425:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  /tmp/ccixNPDC.s 			page 21
+ARM GAS  /tmp/ccbVDaGs.s 			page 21
 
 
  426:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  480:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  481:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR primask, %0" : : "r" (priMask) : "memory");
  482:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  /tmp/ccixNPDC.s 			page 22
+ARM GAS  /tmp/ccbVDaGs.s 			page 22
 
 
  483:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  537:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  538:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  539:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Base Priority (non-secure)
-ARM GAS  /tmp/ccixNPDC.s 			page 23
+ARM GAS  /tmp/ccbVDaGs.s 			page 23
 
 
  540:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the non-secure Base Priority register when in secure state.
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  594:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_FAULTMASK(void)
  595:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  596:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  /tmp/ccixNPDC.s 			page 24
+ARM GAS  /tmp/ccbVDaGs.s 			page 24
 
 
  597:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  651:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Process Stack Pointer Limit
  652:Drivers/CMSIS/Include/cmsis_gcc.h ****   Devices without ARMv8-M Main Extensions (i.e. Cortex-M23) lack the non-secure
  653:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence zero is returned always in non-secure
-ARM GAS  /tmp/ccixNPDC.s 			page 25
+ARM GAS  /tmp/ccbVDaGs.s 			page 25
 
 
  654:Drivers/CMSIS/Include/cmsis_gcc.h ****   mode.
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  708:Drivers/CMSIS/Include/cmsis_gcc.h ****   // without main extensions, the non-secure PSPLIM is RAZ/WI
  709:Drivers/CMSIS/Include/cmsis_gcc.h ****   (void)ProcStackPtrLimit;
  710:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
-ARM GAS  /tmp/ccixNPDC.s 			page 26
+ARM GAS  /tmp/ccbVDaGs.s 			page 26
 
 
  711:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR psplim, %0" : : "r" (ProcStackPtrLimit));
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  765:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  766:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the non-secure Main Stack Pointer Limit(MSPLIM) when in sec
  767:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               MSPLIM Register value
-ARM GAS  /tmp/ccixNPDC.s 			page 27
+ARM GAS  /tmp/ccbVDaGs.s 			page 27
 
 
  768:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  822:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  823:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  824:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif /* ((defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) || \
-ARM GAS  /tmp/ccixNPDC.s 			page 28
+ARM GAS  /tmp/ccbVDaGs.s 			page 28
 
 
  825:Drivers/CMSIS/Include/cmsis_gcc.h ****            (defined (__ARM_ARCH_8M_BASE__ ) && (__ARM_ARCH_8M_BASE__ == 1))    ) */
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  879:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  880:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ##########################  Core Instruction Access  ######################### */
  881:Drivers/CMSIS/Include/cmsis_gcc.h **** /** \defgroup CMSIS_Core_InstructionInterface CMSIS Core Instruction Interface
-ARM GAS  /tmp/ccixNPDC.s 			page 29
+ARM GAS  /tmp/ccbVDaGs.s 			page 29
 
 
  882:Drivers/CMSIS/Include/cmsis_gcc.h ****   Access to dedicated instructions
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  934:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  935:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("isb 0xF":::"memory");
   53              		.loc 2 935 3 view .LVU7
-ARM GAS  /tmp/ccixNPDC.s 			page 30
+ARM GAS  /tmp/ccbVDaGs.s 			page 30
 
 
   54              		.syntax divided
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  681:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   uint32_t dest = Address;
   96              		.loc 1 681 3 view .LVU14
  682:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   uint32_t src = DataAddress;
-ARM GAS  /tmp/ccixNPDC.s 			page 31
+ARM GAS  /tmp/ccbVDaGs.s 			page 31
 
 
   97              		.loc 1 682 3 view .LVU15
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  136              	.LBE15:
  137              	.LBE14:
  691:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
-ARM GAS  /tmp/ccixNPDC.s 			page 32
+ARM GAS  /tmp/ccbVDaGs.s 			page 32
 
 
  692:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   /* Fast Program : 64 words */
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  708:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   while ((FLASH->SR & FLASH_SR_BSY1) != 0x00U)
  709:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** #endif /* FLASH_DBANK_SUPPORT */
  710:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   {
-ARM GAS  /tmp/ccixNPDC.s 			page 33
+ARM GAS  /tmp/ccbVDaGs.s 			page 33
 
 
  711:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   }
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  217              		.cfi_startproc
  218              		@ args = 0, pretend = 0, frame = 0
  219              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccixNPDC.s 			page 34
+ARM GAS  /tmp/ccbVDaGs.s 			page 34
 
 
  220              		@ link register save eliminated.
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  288:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
  270              		.loc 1 288 3 view .LVU58
  288:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
-ARM GAS  /tmp/ccixNPDC.s 			page 35
+ARM GAS  /tmp/ccbVDaGs.s 			page 35
 
 
  271              		.loc 1 288 17 is_stmt 0 view .LVU59
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  310              		.loc 1 336 15 is_stmt 0 view .LVU74
  311 0028 224B     		ldr	r3, .L27+8
  312 002a 9B68     		ldr	r3, [r3, #8]
-ARM GAS  /tmp/ccixNPDC.s 			page 36
+ARM GAS  /tmp/ccbVDaGs.s 			page 36
 
 
  336:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     {
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  352              		.loc 1 372 1 view .LVU89
  353 0054 10BD     		pop	{r4, pc}
  354              	.LVL18:
-ARM GAS  /tmp/ccixNPDC.s 			page 37
+ARM GAS  /tmp/ccbVDaGs.s 			page 37
 
 
  355              	.L14:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  321:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
  394              		.loc 1 321 15 is_stmt 0 view .LVU105
  395 0078 0C4B     		ldr	r3, .L27
-ARM GAS  /tmp/ccixNPDC.s 			page 38
+ARM GAS  /tmp/ccbVDaGs.s 			page 38
 
 
  396 007a 0D49     		ldr	r1, .L27+4
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  436 00aa C4E7     		b	.L21
  437              	.L28:
  438              		.align	2
-ARM GAS  /tmp/ccixNPDC.s 			page 39
+ARM GAS  /tmp/ccbVDaGs.s 			page 39
 
 
  439              	.L27:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  485              		.loc 1 441 5 view .LVU129
  486 0012 064A     		ldr	r2, .L34+8
  487 0014 9A60     		str	r2, [r3, #8]
-ARM GAS  /tmp/ccixNPDC.s 			page 40
+ARM GAS  /tmp/ccbVDaGs.s 			page 40
 
 
  444:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     {
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  533              		.loc 1 487 5 is_stmt 1 view .LVU140
  534 0008 064B     		ldr	r3, .L40
  535 000a 074A     		ldr	r2, .L40+4
-ARM GAS  /tmp/ccixNPDC.s 			page 41
+ARM GAS  /tmp/ccbVDaGs.s 			page 41
 
 
  536 000c DA60     		str	r2, [r3, #12]
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  583              		@ frame_needed = 0, uses_anonymous_args = 0
  584              		@ link register save eliminated.
  530:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
-ARM GAS  /tmp/ccixNPDC.s 			page 42
+ARM GAS  /tmp/ccbVDaGs.s 			page 42
 
 
  585              		.loc 1 530 3 view .LVU150
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  635              		.global	FLASH_WaitForLastOperation
  636              		.syntax unified
  637              		.code	16
-ARM GAS  /tmp/ccixNPDC.s 			page 43
+ARM GAS  /tmp/ccbVDaGs.s 			page 43
 
 
  638              		.thumb_func
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  615:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       {
  679              		.loc 1 615 12 is_stmt 0 view .LVU172
  680 0016 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  /tmp/ccixNPDC.s 			page 44
+ARM GAS  /tmp/ccbVDaGs.s 			page 44
 
 
  681              	.LVL34:
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  640:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       {
  720              		.loc 1 640 7 is_stmt 1 view .LVU188
  640:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****       {
-ARM GAS  /tmp/ccixNPDC.s 			page 45
+ARM GAS  /tmp/ccbVDaGs.s 			page 45
 
 
  721              		.loc 1 640 12 is_stmt 0 view .LVU189
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  766              		.code	16
  767              		.thumb_func
  769              	HAL_FLASH_Program:
-ARM GAS  /tmp/ccixNPDC.s 			page 46
+ARM GAS  /tmp/ccbVDaGs.s 			page 46
 
 
  770              	.LVL40:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  811 001c FA20     		movs	r0, #250
  812              	.LVL42:
  178:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
-ARM GAS  /tmp/ccixNPDC.s 			page 47
+ARM GAS  /tmp/ccbVDaGs.s 			page 47
 
 
  813              		.loc 1 178 12 view .LVU213
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  853              		.loc 1 210 3 view .LVU227
  854              	.LVL48:
  855              	.L66:
-ARM GAS  /tmp/ccixNPDC.s 			page 48
+ARM GAS  /tmp/ccbVDaGs.s 			page 48
 
 
  211:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  903              		.loc 1 227 1 is_stmt 0 view .LVU236
  904 0000 F0B5     		push	{r4, r5, r6, r7, lr}
  905              	.LCFI5:
-ARM GAS  /tmp/ccixNPDC.s 			page 49
+ARM GAS  /tmp/ccbVDaGs.s 			page 49
 
 
  906              		.cfi_def_cfa_offset 20
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  947              		.loc 1 242 3 is_stmt 1 view .LVU249
  242:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   {
  948              		.loc 1 242 6 is_stmt 0 view .LVU250
-ARM GAS  /tmp/ccixNPDC.s 			page 50
+ARM GAS  /tmp/ccbVDaGs.s 			page 50
 
 
  949 0028 05D0     		beq	.L76
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  988              		.loc 1 267 7 is_stmt 1 view .LVU265
  270:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****     }
  989              		.loc 1 270 7 view .LVU266
-ARM GAS  /tmp/ccixNPDC.s 			page 51
+ARM GAS  /tmp/ccbVDaGs.s 			page 51
 
 
  990 004c 2900     		movs	r1, r5
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  459:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
  1040              		.loc 1 459 3 view .LVU273
  1041              	.LVL70:
-ARM GAS  /tmp/ccixNPDC.s 			page 52
+ARM GAS  /tmp/ccbVDaGs.s 			page 52
 
 
  462:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c **** 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  1088              	HAL_FLASH_OB_Lock:
  1089              	.LFB298:
  505:Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c ****   HAL_StatusTypeDef status = HAL_ERROR;
-ARM GAS  /tmp/ccixNPDC.s 			page 53
+ARM GAS  /tmp/ccbVDaGs.s 			page 53
 
 
  1090              		.loc 1 505 1 is_stmt 1 view -0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  1133              	.L91:
  1134              		.align	2
  1135              	.L90:
-ARM GAS  /tmp/ccixNPDC.s 			page 54
+ARM GAS  /tmp/ccbVDaGs.s 			page 54
 
 
  1136 0024 00200240 		.word	1073881088
@@ -3202,53 +3202,53 @@ ARM GAS  /tmp/ccixNPDC.s 			page 1
  1153              		.file 7 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h"
  1154              		.file 8 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h"
  1155              		.file 9 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h"
-ARM GAS  /tmp/ccixNPDC.s 			page 55
+ARM GAS  /tmp/ccbVDaGs.s 			page 55
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g0xx_hal_flash.c
-     /tmp/ccixNPDC.s:19     .text.FLASH_Program_DoubleWord:00000000 $t
-     /tmp/ccixNPDC.s:24     .text.FLASH_Program_DoubleWord:00000000 FLASH_Program_DoubleWord
-     /tmp/ccixNPDC.s:71     .text.FLASH_Program_DoubleWord:00000018 $d
-     /tmp/ccixNPDC.s:76     .RamFunc:00000000 $t
-     /tmp/ccixNPDC.s:81     .RamFunc:00000000 FLASH_Program_Fast
-     /tmp/ccixNPDC.s:202    .RamFunc:00000034 $d
-     /tmp/ccixNPDC.s:207    .text.HAL_FLASH_EndOfOperationCallback:00000000 $t
-     /tmp/ccixNPDC.s:213    .text.HAL_FLASH_EndOfOperationCallback:00000000 HAL_FLASH_EndOfOperationCallback
-     /tmp/ccixNPDC.s:229    .text.HAL_FLASH_OperationErrorCallback:00000000 $t
-     /tmp/ccixNPDC.s:235    .text.HAL_FLASH_OperationErrorCallback:00000000 HAL_FLASH_OperationErrorCallback
-     /tmp/ccixNPDC.s:251    .text.HAL_FLASH_IRQHandler:00000000 $t
-     /tmp/ccixNPDC.s:257    .text.HAL_FLASH_IRQHandler:00000000 HAL_FLASH_IRQHandler
-     /tmp/ccixNPDC.s:440    .text.HAL_FLASH_IRQHandler:000000ac $d
-     /tmp/ccixNPDC.s:1145   .bss.pFlash:00000000 pFlash
-     /tmp/ccixNPDC.s:449    .text.HAL_FLASH_Unlock:00000000 $t
-     /tmp/ccixNPDC.s:455    .text.HAL_FLASH_Unlock:00000000 HAL_FLASH_Unlock
-     /tmp/ccixNPDC.s:504    .text.HAL_FLASH_Unlock:00000024 $d
-     /tmp/ccixNPDC.s:511    .text.HAL_FLASH_OB_Unlock:00000000 $t
-     /tmp/ccixNPDC.s:517    .text.HAL_FLASH_OB_Unlock:00000000 HAL_FLASH_OB_Unlock
-     /tmp/ccixNPDC.s:565    .text.HAL_FLASH_OB_Unlock:00000024 $d
-     /tmp/ccixNPDC.s:572    .text.HAL_FLASH_OB_Launch:00000000 $t
-     /tmp/ccixNPDC.s:578    .text.HAL_FLASH_OB_Launch:00000000 HAL_FLASH_OB_Launch
-     /tmp/ccixNPDC.s:600    .text.HAL_FLASH_OB_Launch:00000010 $d
-     /tmp/ccixNPDC.s:605    .text.HAL_FLASH_GetError:00000000 $t
-     /tmp/ccixNPDC.s:611    .text.HAL_FLASH_GetError:00000000 HAL_FLASH_GetError
-     /tmp/ccixNPDC.s:629    .text.HAL_FLASH_GetError:00000008 $d
-     /tmp/ccixNPDC.s:634    .text.FLASH_WaitForLastOperation:00000000 $t
-     /tmp/ccixNPDC.s:640    .text.FLASH_WaitForLastOperation:00000000 FLASH_WaitForLastOperation
-     /tmp/ccixNPDC.s:755    .text.FLASH_WaitForLastOperation:0000005c $d
-     /tmp/ccixNPDC.s:763    .text.HAL_FLASH_Program:00000000 $t
-     /tmp/ccixNPDC.s:769    .text.HAL_FLASH_Program:00000000 HAL_FLASH_Program
-     /tmp/ccixNPDC.s:884    .text.HAL_FLASH_Program:0000005c $d
-     /tmp/ccixNPDC.s:890    .text.HAL_FLASH_Program_IT:00000000 $t
-     /tmp/ccixNPDC.s:896    .text.HAL_FLASH_Program_IT:00000000 HAL_FLASH_Program_IT
-     /tmp/ccixNPDC.s:1017   .text.HAL_FLASH_Program_IT:00000068 $d
-     /tmp/ccixNPDC.s:1023   .text.HAL_FLASH_Lock:00000000 $t
-     /tmp/ccixNPDC.s:1029   .text.HAL_FLASH_Lock:00000000 HAL_FLASH_Lock
-     /tmp/ccixNPDC.s:1077   .text.HAL_FLASH_Lock:00000024 $d
-     /tmp/ccixNPDC.s:1082   .text.HAL_FLASH_OB_Lock:00000000 $t
-     /tmp/ccixNPDC.s:1088   .text.HAL_FLASH_OB_Lock:00000000 HAL_FLASH_OB_Lock
-     /tmp/ccixNPDC.s:1136   .text.HAL_FLASH_OB_Lock:00000024 $d
-     /tmp/ccixNPDC.s:1142   .bss.pFlash:00000000 $d
+     /tmp/ccbVDaGs.s:19     .text.FLASH_Program_DoubleWord:00000000 $t
+     /tmp/ccbVDaGs.s:24     .text.FLASH_Program_DoubleWord:00000000 FLASH_Program_DoubleWord
+     /tmp/ccbVDaGs.s:71     .text.FLASH_Program_DoubleWord:00000018 $d
+     /tmp/ccbVDaGs.s:76     .RamFunc:00000000 $t
+     /tmp/ccbVDaGs.s:81     .RamFunc:00000000 FLASH_Program_Fast
+     /tmp/ccbVDaGs.s:202    .RamFunc:00000034 $d
+     /tmp/ccbVDaGs.s:207    .text.HAL_FLASH_EndOfOperationCallback:00000000 $t
+     /tmp/ccbVDaGs.s:213    .text.HAL_FLASH_EndOfOperationCallback:00000000 HAL_FLASH_EndOfOperationCallback
+     /tmp/ccbVDaGs.s:229    .text.HAL_FLASH_OperationErrorCallback:00000000 $t
+     /tmp/ccbVDaGs.s:235    .text.HAL_FLASH_OperationErrorCallback:00000000 HAL_FLASH_OperationErrorCallback
+     /tmp/ccbVDaGs.s:251    .text.HAL_FLASH_IRQHandler:00000000 $t
+     /tmp/ccbVDaGs.s:257    .text.HAL_FLASH_IRQHandler:00000000 HAL_FLASH_IRQHandler
+     /tmp/ccbVDaGs.s:440    .text.HAL_FLASH_IRQHandler:000000ac $d
+     /tmp/ccbVDaGs.s:1145   .bss.pFlash:00000000 pFlash
+     /tmp/ccbVDaGs.s:449    .text.HAL_FLASH_Unlock:00000000 $t
+     /tmp/ccbVDaGs.s:455    .text.HAL_FLASH_Unlock:00000000 HAL_FLASH_Unlock
+     /tmp/ccbVDaGs.s:504    .text.HAL_FLASH_Unlock:00000024 $d
+     /tmp/ccbVDaGs.s:511    .text.HAL_FLASH_OB_Unlock:00000000 $t
+     /tmp/ccbVDaGs.s:517    .text.HAL_FLASH_OB_Unlock:00000000 HAL_FLASH_OB_Unlock
+     /tmp/ccbVDaGs.s:565    .text.HAL_FLASH_OB_Unlock:00000024 $d
+     /tmp/ccbVDaGs.s:572    .text.HAL_FLASH_OB_Launch:00000000 $t
+     /tmp/ccbVDaGs.s:578    .text.HAL_FLASH_OB_Launch:00000000 HAL_FLASH_OB_Launch
+     /tmp/ccbVDaGs.s:600    .text.HAL_FLASH_OB_Launch:00000010 $d
+     /tmp/ccbVDaGs.s:605    .text.HAL_FLASH_GetError:00000000 $t
+     /tmp/ccbVDaGs.s:611    .text.HAL_FLASH_GetError:00000000 HAL_FLASH_GetError
+     /tmp/ccbVDaGs.s:629    .text.HAL_FLASH_GetError:00000008 $d
+     /tmp/ccbVDaGs.s:634    .text.FLASH_WaitForLastOperation:00000000 $t
+     /tmp/ccbVDaGs.s:640    .text.FLASH_WaitForLastOperation:00000000 FLASH_WaitForLastOperation
+     /tmp/ccbVDaGs.s:755    .text.FLASH_WaitForLastOperation:0000005c $d
+     /tmp/ccbVDaGs.s:763    .text.HAL_FLASH_Program:00000000 $t
+     /tmp/ccbVDaGs.s:769    .text.HAL_FLASH_Program:00000000 HAL_FLASH_Program
+     /tmp/ccbVDaGs.s:884    .text.HAL_FLASH_Program:0000005c $d
+     /tmp/ccbVDaGs.s:890    .text.HAL_FLASH_Program_IT:00000000 $t
+     /tmp/ccbVDaGs.s:896    .text.HAL_FLASH_Program_IT:00000000 HAL_FLASH_Program_IT
+     /tmp/ccbVDaGs.s:1017   .text.HAL_FLASH_Program_IT:00000068 $d
+     /tmp/ccbVDaGs.s:1023   .text.HAL_FLASH_Lock:00000000 $t
+     /tmp/ccbVDaGs.s:1029   .text.HAL_FLASH_Lock:00000000 HAL_FLASH_Lock
+     /tmp/ccbVDaGs.s:1077   .text.HAL_FLASH_Lock:00000024 $d
+     /tmp/ccbVDaGs.s:1082   .text.HAL_FLASH_OB_Lock:00000000 $t
+     /tmp/ccbVDaGs.s:1088   .text.HAL_FLASH_OB_Lock:00000000 HAL_FLASH_OB_Lock
+     /tmp/ccbVDaGs.s:1136   .text.HAL_FLASH_OB_Lock:00000024 $d
+     /tmp/ccbVDaGs.s:1142   .bss.pFlash:00000000 $d
 
 UNDEFINED SYMBOLS
 FLASH_PageErase
