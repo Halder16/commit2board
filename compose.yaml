@@ -1,0 +1,35 @@
+services:
+
+  gitea:
+    image: docker.io/gitea/gitea:latest
+    container_name: gitea
+
+    ports:
+      - "3000:3000"
+      - "2222:22"
+
+    volumes:
+      - /home/sohan/gitea/data:/data:Z
+
+    restart: unless-stopped
+
+
+
+  stm32-dev:
+    build:
+      context: ./stm32-dev
+
+    container_name: stm32-dev
+
+    privileged: true
+
+    volumes:
+      - ./blinky_code:/workspace:Z
+      - /dev/bus/usb:/dev/bus/usb
+
+    working_dir: /workspace
+
+    stdin_open: true
+    tty: true
+
+    restart: "no"
