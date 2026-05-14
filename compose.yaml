@@ -11,6 +11,9 @@ services:
     volumes:
       - /home/sohan/gitea/data:/data:Z
 
+    environment:
+      - GITEA__webhook__ALLOWED_HOST_LIST=host.containers.internal,169.254.1.2,192.168.31.73 # hopefully just a temporary fix.
+
     restart: unless-stopped
 
 

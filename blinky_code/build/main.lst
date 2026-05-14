@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccuodqdQ.s 			page 1
+ARM GAS  /tmp/ccdkNqZF.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
   31:Core/Src/main.c **** 
   32:Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
   33:Core/Src/main.c **** /* USER CODE BEGIN PD */
-ARM GAS  /tmp/ccuodqdQ.s 			page 2
+ARM GAS  /tmp/ccdkNqZF.s 			page 2
 
 
   34:Core/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
   88:Core/Src/main.c ****   MX_GPIO_Init();
   89:Core/Src/main.c ****   /* USER CODE BEGIN 2 */
   90:Core/Src/main.c **** 
-ARM GAS  /tmp/ccuodqdQ.s 			page 3
+ARM GAS  /tmp/ccdkNqZF.s 			page 3
 
 
   91:Core/Src/main.c ****   /* USER CODE END 2 */
@@ -130,7 +130,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
   97:Core/Src/main.c ****     /* USER CODE END WHILE */
   98:Core/Src/main.c ****     //toggle LED
   99:Core/Src/main.c ****     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_6); // adjust pin
- 100:Core/Src/main.c ****     HAL_Delay(500);
+ 100:Core/Src/main.c ****     HAL_Delay(200);
  101:Core/Src/main.c **** 
  102:Core/Src/main.c ****     /* USER CODE BEGIN 3 */
  103:Core/Src/main.c ****   }
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  145:Core/Src/main.c **** }
  146:Core/Src/main.c **** 
  147:Core/Src/main.c **** /**
-ARM GAS  /tmp/ccuodqdQ.s 			page 4
+ARM GAS  /tmp/ccdkNqZF.s 			page 4
 
 
  148:Core/Src/main.c ****   * @brief GPIO Initialization Function
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
   64 0020 A025     		movs	r5, #160
   65 0022 ED05     		lsls	r5, r5, #23
   66 0024 0022     		movs	r2, #0
-ARM GAS  /tmp/ccuodqdQ.s 			page 5
+ARM GAS  /tmp/ccdkNqZF.s 			page 5
 
 
   67 0026 4021     		movs	r1, #64
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  177:Core/Src/main.c **** /* USER CODE BEGIN 4 */
  178:Core/Src/main.c **** 
  179:Core/Src/main.c **** /* USER CODE END 4 */
-ARM GAS  /tmp/ccuodqdQ.s 			page 6
+ARM GAS  /tmp/ccdkNqZF.s 			page 6
 
 
  180:Core/Src/main.c **** 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
   31:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wconversion"
   32:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wunused-parameter"
   33:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccuodqdQ.s 			page 7
+ARM GAS  /tmp/ccdkNqZF.s 			page 7
 
 
   34:Drivers/CMSIS/Include/cmsis_gcc.h **** /* Fallback for __has_builtin */
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
   88:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
   89:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
   90:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_READ { uint16_t v; };
-ARM GAS  /tmp/ccuodqdQ.s 			page 8
+ARM GAS  /tmp/ccdkNqZF.s 			page 8
 
 
   91:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  145:Drivers/CMSIS/Include/cmsis_gcc.h ****   
  146:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __copy_table_t __copy_table_start__;
  147:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __copy_table_t __copy_table_end__;
-ARM GAS  /tmp/ccuodqdQ.s 			page 9
+ARM GAS  /tmp/ccdkNqZF.s 			page 9
 
 
  148:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __zero_table_t __zero_table_start__;
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  202:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  203:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Disable IRQ Interrupts
  204:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Disables IRQ interrupts by setting the I-bit in the CPSR.
-ARM GAS  /tmp/ccuodqdQ.s 			page 10
+ARM GAS  /tmp/ccdkNqZF.s 			page 10
 
 
  205:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  169              		.cfi_offset 14, -4
  170 0002 93B0     		sub	sp, sp, #76
  171              	.LCFI4:
-ARM GAS  /tmp/ccuodqdQ.s 			page 11
+ARM GAS  /tmp/ccdkNqZF.s 			page 11
 
 
  172              		.cfi_def_cfa_offset 80
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  128:Core/Src/main.c ****   {
  211              		.loc 1 128 3 is_stmt 1 view .LVU44
  128:Core/Src/main.c ****   {
-ARM GAS  /tmp/ccuodqdQ.s 			page 12
+ARM GAS  /tmp/ccdkNqZF.s 			page 12
 
 
  212              		.loc 1 128 7 is_stmt 0 view .LVU45
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  251              		.loc 1 143 5 view .LVU60
  252 005c FFF7FEFF 		bl	Error_Handler
  253              	.LVL11:
-ARM GAS  /tmp/ccuodqdQ.s 			page 13
+ARM GAS  /tmp/ccdkNqZF.s 			page 13
 
 
  254              		.cfi_endproc
@@ -757,7 +757,7 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  285              	.L12:
   95:Core/Src/main.c ****   {
  286              		.loc 1 95 3 view .LVU65
-  99:Core/Src/main.c ****     HAL_Delay(500);
+  99:Core/Src/main.c ****     HAL_Delay(200);
  287              		.loc 1 99 5 view .LVU66
  288 000e A020     		movs	r0, #160
  289 0010 4021     		movs	r1, #64
@@ -766,43 +766,42 @@ ARM GAS  /tmp/ccuodqdQ.s 			page 1
  292              	.LVL15:
  100:Core/Src/main.c **** 
  293              		.loc 1 100 5 discriminator 1 view .LVU67
- 294 0018 FA20     		movs	r0, #250
- 295 001a 4000     		lsls	r0, r0, #1
- 296 001c FFF7FEFF 		bl	HAL_Delay
- 297              	.LVL16:
+ 294 0018 C820     		movs	r0, #200
+ 295 001a FFF7FEFF 		bl	HAL_Delay
+ 296              	.LVL16:
   95:Core/Src/main.c ****   {
- 298              		.loc 1 95 9 view .LVU68
- 299 0020 F5E7     		b	.L12
- 300              		.cfi_endproc
- 301              	.LFE290:
- 303              		.text
- 304              	.Letext0:
- 305              		.file 3 "/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h"
-ARM GAS  /tmp/ccuodqdQ.s 			page 14
+ 297              		.loc 1 95 9 view .LVU68
+ 298 001e F6E7     		b	.L12
+ 299              		.cfi_endproc
+ 300              	.LFE290:
+ 302              		.text
+ 303              	.Letext0:
+ 304              		.file 3 "/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h"
+ 305              		.file 4 "Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h"
+ARM GAS  /tmp/ccdkNqZF.s 			page 14
 
 
- 306              		.file 4 "Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h"
- 307              		.file 5 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h"
- 308              		.file 6 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h"
- 309              		.file 7 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h"
- 310              		.file 8 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h"
- 311              		.file 9 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h"
- 312              		.file 10 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h"
- 313              		.file 11 "<built-in>"
-ARM GAS  /tmp/ccuodqdQ.s 			page 15
+ 306              		.file 5 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h"
+ 307              		.file 6 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h"
+ 308              		.file 7 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h"
+ 309              		.file 8 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h"
+ 310              		.file 9 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h"
+ 311              		.file 10 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h"
+ 312              		.file 11 "<built-in>"
+ARM GAS  /tmp/ccdkNqZF.s 			page 15
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-     /tmp/ccuodqdQ.s:19     .text.MX_GPIO_Init:00000000 $t
-     /tmp/ccuodqdQ.s:24     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-     /tmp/ccuodqdQ.s:97     .text.MX_GPIO_Init:00000048 $d
-     /tmp/ccuodqdQ.s:102    .text.Error_Handler:00000000 $t
-     /tmp/ccuodqdQ.s:108    .text.Error_Handler:00000000 Error_Handler
-     /tmp/ccuodqdQ.s:154    .text.SystemClock_Config:00000000 $t
-     /tmp/ccuodqdQ.s:160    .text.SystemClock_Config:00000000 SystemClock_Config
-     /tmp/ccuodqdQ.s:258    .text.main:00000000 $t
-     /tmp/ccuodqdQ.s:264    .text.main:00000000 main
+     /tmp/ccdkNqZF.s:19     .text.MX_GPIO_Init:00000000 $t
+     /tmp/ccdkNqZF.s:24     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+     /tmp/ccdkNqZF.s:97     .text.MX_GPIO_Init:00000048 $d
+     /tmp/ccdkNqZF.s:102    .text.Error_Handler:00000000 $t
+     /tmp/ccdkNqZF.s:108    .text.Error_Handler:00000000 Error_Handler
+     /tmp/ccdkNqZF.s:154    .text.SystemClock_Config:00000000 $t
+     /tmp/ccdkNqZF.s:160    .text.SystemClock_Config:00000000 SystemClock_Config
+     /tmp/ccdkNqZF.s:258    .text.main:00000000 $t
+     /tmp/ccdkNqZF.s:264    .text.main:00000000 main
 
 UNDEFINED SYMBOLS
 memset
