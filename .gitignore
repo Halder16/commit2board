@@ -1,1 +1,5 @@
-Containerfile
+
+#ignore all of /blinky_code/ except these two files.
+/blinky_code/*
+!/blinky_code/build-flash.sh
+!/blinky_code/stm32-shell.sh

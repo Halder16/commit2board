@@ -31,6 +31,7 @@ def flash():
     try:
         run_command(["podman", "start", "stm32-dev"])
 
+        # THE command. change this if your build/flash process is different.
         run_command([
             "podman",
             "exec",
